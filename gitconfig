@@ -1,0 +1,18 @@
+[user]
+  name = Carson Tang
+  email = tang.carson@gmail.com
+
+[core]
+  autocrlf = input
+  safecrlf = true
+
+[credential]
+  helper = osxkeychain
+
+[color]
+  ui = true
+
+[alias]
+  staged = diff --cached
+  unstage = reset HEAD
+

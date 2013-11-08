@@ -1,0 +1,35 @@
+# Command line
+alias cdh="cd ~"
+alias cdp="cd .."
+alias l="ls -ahl"
+alias ltr="ls -hltr"
+alias s="source ~/.bash_profile"
+
+# Git
+alias g="git status"
+alias ga="git add"
+alias gaa="git add --all"
+alias gb="git branch"
+alias gbd="git branch --delete"
+alias gc="git commit -m"
+alias gd="git diff"
+alias gf="git fetch"
+alias gl="git log --pretty=format:'%h %ad (%ar) | %s%d [%an]' --graph --date    =short"
+alias gm="git merge"
+alias go="git checkout"
+alias gob="git checkout -b"
+alias gp="git push"
+alias gpl="git pull"
+alias gplr="git pull --rebase"
+alias gr="git rebase"
+alias gs="git show"
+alias gst="git staged" # requires the presence of ~/code/dotfiles/gitconfig
+alias gu="git unstage" # requires the presence of ~/code/dotfiles/gitconfig
+
+# Ruby/Rails
+alias i="irb"
+alias b="bundle"
+alias be="bundle exec"
+alias bi="bundle install"
+alias rk="rake"
+alias rkdm="rake db:migrate"
