@@ -14,7 +14,7 @@ alias gbd="git branch --delete"
 alias gc="git commit -m"
 alias gd="git diff"
 alias gf="git fetch"
-alias gl="git log --pretty=format:'%h %ad (%ar) | %s%d [%an]' --graph --date    =short"
+alias gl='git log --pretty=format:"%h %ad (%ar) | %s%d [%an]" --graph --date    =short'
 alias gm="git merge"
 alias go="git checkout"
 alias gob="git checkout -b"
