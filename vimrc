@@ -37,3 +37,6 @@ set nowrap
 
 " display row & column of cursor
 set ruler
+
+" wrap text to new line when 80 chars are exceeded
+set textwidth=80
