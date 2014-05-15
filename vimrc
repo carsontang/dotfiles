@@ -40,3 +40,9 @@ set ruler
 
 " wrap text to new line when 80 chars are exceeded
 set textwidth=80
+
+" set tab to 2 spaces
+set tabstop=2
+
+" indentation with extra level of indentation in some cases, like C files
+set smartindent
