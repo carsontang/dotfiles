@@ -3,6 +3,14 @@
 call pathogen#helptags()
 call pathogen#infect()
 
+" CommandT
+
+" \ff -> open fuzzy finder
+map <silent> <leader>ff :CommandT<CR>
+
+" close fuzzy finder with ESC or ^C
+let g:CommandTCancelMap = ['<ESC>', '<C-c>']
+
 " no compatibility with Vi
 set nocompatible
 
