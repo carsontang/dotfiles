@@ -1,3 +1,8 @@
+"" Use pathogen to easily modify the runtime path to include all
+" plugins under the ~/.vim/bundle directory
+call pathogen#helptags()
+call pathogen#infect()
+
 " no compatibility with Vi
 set nocompatible
 
