@@ -5,11 +5,25 @@ call pathogen#infect()
 
 " CommandT
 
+" Keys
 " \ff -> open fuzzy finder
 map <silent> <leader>ff :CommandT<CR>
 
+" \fb -> opens fuzzy finder on files in buffer
+map <silent> <leader>fb :CommandTBuffer<CR>
+
+" \fr -> reread file list in current directory
+map <silent> <leader>fr :CommandTFlush<CR>
+
+" Options
 " close fuzzy finder with ESC or ^C
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
+
+" set match window at top
+let g:CommandTMatchWindowAtTop = 1
+
+" set popup menu to max height
+let g:CommandTMaxHeight = 15
 
 " no compatibility with Vi
 set nocompatible
