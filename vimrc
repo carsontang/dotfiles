@@ -3,6 +3,14 @@
 call pathogen#helptags()
 call pathogen#infect()
 
+" toggle tagbar window
+" nmap <F8> :TagbarToggle<CR>
+
+" NERDTree
+map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
+map <silent> <LocalLeader>nf :NERDTreeFind<CR>
+let NERDTreeIgnore=['\.pyc', '\.o', '\.class', '\.lo']
+
 " CommandT
 
 " Keys
