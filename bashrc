@@ -17,5 +17,15 @@ function bash_prompt
 
 bash_prompt
 
-# Primsly
-alias primsly="ssh -i ~/.ec2/primsly-keypair ubuntu@web01.primsly.com"
+## ShareFi ##
+
+# Rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# Postgres.app
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+
+# ImageMagick
+export MAGICK_HOME="/usr/local/Cellar/imagemagick/6.9.1-1"
+export PATH="$MAGICK_HOME/bin:$PATH"
+export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib/"

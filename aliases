@@ -6,23 +6,24 @@ alias ltr="ls -hltr"
 alias s="source ~/.bash_profile"
 
 # Git
-alias g="git status"
-alias ga="git add"
-alias gaa="git add --all"
+alias s="git status"
+alias a="git add"
+alias aa="git add --all"
 alias gb="git branch"
 alias gbd="git branch --delete"
-alias gc="git commit -m"
-alias gd="git diff"
-alias gf="git fetch"
+alias ci="git commit -m"
+alias d="git diff"
+alias f="git fetch"
 alias gl='git log --pretty=format:"%h %ad (%ar) | %s%d [%an]" --graph --date=short'
+alias gl1='gl -1'
 alias gm="git merge"
 alias go="git checkout"
 alias gob="git checkout -b"
+alias gom="git checkout master"
 alias gp="git push"
-alias gpl="git pull"
-alias gplr="git pull --rebase"
+alias p="git pull --rebase"
 alias gr="git rebase"
-alias gs="git show"
+alias gsh="git show"
 alias gst="git staged" # requires the presence of ~/code/dotfiles/gitconfig
 alias gu="git unstage" # requires the presence of ~/code/dotfiles/gitconfig
 
@@ -31,5 +32,8 @@ alias i="irb"
 alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
-alias rk="rake"
-alias rkdm="rake db:migrate"
+alias rk="RAILS_ENV=development bundle exec rake"
+alias rkdm="bundle exec rake db:migrate"
+
+# ShareFi
+alias sf="cd ~/code/sharefi"

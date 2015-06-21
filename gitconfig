@@ -1,6 +1,6 @@
 [user]
-  name = Carson Tang
-  email = tang.carson@gmail.com
+	name = Carson Tang
+	email = tang.carson@gmail.com
 
 [core]
   autocrlf = input
@@ -16,3 +16,5 @@
   staged = diff --cached
   unstage = reset HEAD
 
+[push]
+	default = simple
