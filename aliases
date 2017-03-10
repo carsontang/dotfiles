@@ -49,3 +49,7 @@ alias be="bundle exec"
 alias bi="bundle install"
 alias rk="RAILS_ENV=development bundle exec rake"
 alias rkdm="bundle exec rake db:migrate"
+
+# Temperature of CPU and GPU
+alias cputemp='watch -n1 "sensors"'
+alias gputemp='watch -n1 "nvidia-smi -q -d temperature"'
