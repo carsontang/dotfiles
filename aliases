@@ -5,6 +5,21 @@ alias l="ls -ahl"
 alias ltr="ls -hltr"
 alias s="source ~/.bash_profile"
 
+# Colorize
+alias grep="grep --color=auto"
+alias ls='ls --color'
+
+# Reference: http://linux-sxs.org/housekeeping/lscolors.html
+# di - directory, cyan
+# fi - file, normal
+# ln - symbolic link, light purple
+# pi - fifo file, yellow
+# or - orphan symbolic link, red
+# ex - executable, green
+# CUDA files - light green
+LS_COLORS='di=0;36:fi=0:ln=95:pi=33:so=5:bd=5:cd=5:or=31:mi=0:ex=32:*.sh=4:*.java=4:*.cpp=4:*.c=4:*.cu=4:*.py=4'
+export LS_COLORS
+
 # Git
 alias s="git status"
 alias a="git add"
@@ -34,6 +49,3 @@ alias be="bundle exec"
 alias bi="bundle install"
 alias rk="RAILS_ENV=development bundle exec rake"
 alias rkdm="bundle exec rake db:migrate"
-
-# ShareFi
-alias sf="cd ~/code/sharefi"
