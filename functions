@@ -13,7 +13,7 @@ function tj {
 }
 
 function tl {
-  ps -o ruser,command -ax | grep '[n]ew-session -s' | ruby -ne '$_ =~ /^(\w+).*-s (\w+)/; puts "#{$1} started #{$2}"'
+  ps -o ruser,command -ax | grep '[n]ew-session -s' | awk '{print $1 " started " $7}'
 }
 
 function tw {
