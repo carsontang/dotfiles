@@ -2,6 +2,7 @@
 source ~/dotfiles/aliases
 source ~/dotfiles/env
 source ~/dotfiles/functions
+source ~/dotfiles/exports
 
 # set Bash history
 HISTFILE=$HOME/.bash_history
