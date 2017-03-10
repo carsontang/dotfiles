@@ -3,6 +3,10 @@ source ~/dotfiles/aliases
 source ~/dotfiles/env
 source ~/dotfiles/functions
 
+# set Bash history
+HISTFILE=$HOME/.bash_history
+HISTSIZE=50000
+
 # Bash coloring
 function bash_prompt
 {
