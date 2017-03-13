@@ -8,6 +8,12 @@ source ~/dotfiles/exports
 HISTFILE=$HOME/.bash_history
 HISTSIZE=50000
 
+# add ~/bin to PATH
+export PATH=$PATH:~/bin
+
+# add system virtualenv to PATH
+export PATH=$PATH:~/.local/bin
+
 # Bash coloring
 function bash_prompt
 {
