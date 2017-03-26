@@ -39,7 +39,7 @@ alias psh="git push"
 alias p="git pull --rebase"
 alias gr="git rebase"
 alias gsh="git show"
-alias gst="git staged" # requires the presence of ~/code/dotfiles/gitconfig
+alias gst="git diff --cached" # requires the presence of ~/code/dotfiles/gitconfig
 alias gu="git unstage" # requires the presence of ~/code/dotfiles/gitconfig
 
 # Ruby/Rails
