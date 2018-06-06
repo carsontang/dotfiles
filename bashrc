@@ -14,8 +14,11 @@ export PATH=$PATH:~/bin
 # add system virtualenv to PATH
 export PATH=$PATH:~/.local/bin
 
+# Anaconda
+export PATH=~/anaconda3/bin:$PATH
+
 # virtualenv
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
+# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
 
 # Bash coloring
 function bash_prompt

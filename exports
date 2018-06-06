@@ -1,5 +1,5 @@
 # for CUDA
 # taken from http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions
 export CUDA_HOME=/usr/local/cuda
-export PATH=/usr/local/cuda-8.0/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-9.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
