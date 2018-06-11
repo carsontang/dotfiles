@@ -7,7 +7,7 @@ alias s="source ~/.bash_profile"
 
 # Colorize
 alias grep="grep --color=auto"
-alias ls='ls --color'
+alias ls='ls -G'
 
 # Reference: http://linux-sxs.org/housekeeping/lscolors.html
 # di - directory, cyan
