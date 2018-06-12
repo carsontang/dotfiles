@@ -17,4 +17,4 @@
   unstage = reset HEAD
 
 [push]
-	default = simple
+	default = current
