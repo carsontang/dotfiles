@@ -1,10 +1,10 @@
 [user]
 	name = Carson Tang
-	email = tang.carson@gmail.com
+	email = carson@visor.gg
 
 [core]
   autocrlf = input
-  safecrlf = true
+  safecrlf = false
 
 [credential]
   helper = osxkeychain
@@ -19,3 +19,9 @@
 
 [push]
 	default = current
+
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
